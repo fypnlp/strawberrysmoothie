@@ -49,3 +49,14 @@ Running the Cucumber features `npm run e2e:<configuration>`
 -   Step Definitions: `./e2e/features/step_definitions/*.js`
 
 -   Detox configurations: `./.detoxrc.json`
+
+# What operating system did you use?
+
+I ran the test using Android Studio!
+
+
+
+
+
+
+
