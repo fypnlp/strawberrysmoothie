@@ -35,20 +35,19 @@ Running the Cucumber features `npm run e2e:<configuration>`
 
 -   Android phone: `npm run e2e:android:device` (change your `avdName` first)  
     You may need to `adb reverse tcp:8081 tcp:8081` for your Android phone to connect to the debugger
+    
+# Where's Everything
 
+Views: ./App/Containers
 
+Components: ./App/Components
 
+Cucumber Features: ./e2e/features/*.feature
 
+Detox JS tests: ./e2e/Tests/*.js
 
+Step Definitions: ./e2e/features/step_definitions/*.js
 
-
-
-
-
-
-
-
-
-
+Detox configurations: ./.detoxrc.json
 
 
